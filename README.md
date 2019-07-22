@@ -22,7 +22,7 @@ Setup (It is assumed that you have java and maven installed globally.)
 * Validate total fare and fare of selected flights
 
 
-##Note:
+## Note
 * Test data is in src\main\java\com\assign\qa\testdata\testData.xlsx
 * properties file is in src\main\java\com\assign\qa\config\config.properties
 * Extent report is generated inside ExtentReports folder with test Steps logs, Failed Screen shot and System info.
