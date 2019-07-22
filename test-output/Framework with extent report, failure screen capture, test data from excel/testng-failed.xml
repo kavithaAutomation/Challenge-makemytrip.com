@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Framework with extent report, failure screen capture, test data from excel]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Validate the Flight prices(failed)">
+    <classes>
+      <class name="com.assign.qa.testcases.CheckPricesTest">
+        <methods>
+          <include name="initTest"/>
+          <include name="validateFlightPriceTest" invocation-numbers="0 1"/>
+          <include name="checkResult"/>
+        </methods>
+      </class> <!-- com.assign.qa.testcases.CheckPricesTest -->
+    </classes>
+  </test> <!-- Validate the Flight prices(failed) -->
+</suite> <!-- Failed suite [Framework with extent report, failure screen capture, test data from excel] -->

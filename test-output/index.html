@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link">
+              <span class="suite-name border-failed">Framework with extent report, failure screen capture, test data from excel</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>C:\kavitha_projects\JavaCore\FrameWorkFinal\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 2 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="hide-methods failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel"> (hide)</a> <!-- hide-methods failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                      <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="show-methods failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel"> (show)</a> <!-- show-methods failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                    </span>
+                    <div class="method-list-content failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CheckPricesTest" class="method navigator-link" hash-for-method="validateFlightPriceTest(2.0, 5.0)">validateFlightPriceTest(2.0, 5.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CheckPricesTest" class="method navigator-link" hash-for-method="validateFlightPriceTest(3.0, 4.0)">validateFlightPriceTest(3.0, 4.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="hide-methods passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel"> (hide)</a> <!-- hide-methods passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                      <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="show-methods passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel"> (show)</a> <!-- show-methods passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                    </span>
+                    <div class="method-list-content passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CountFlightsTest" class="method navigator-link" hash-for-method="flightsCountNoFilterTest">flightsCountNoFilterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CountFlightsTest" class="method navigator-link" hash-for-method="flightsCountNonStopFilterTest">flightsCountNonStopFilterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CountFlightsTest" class="method navigator-link" hash-for-method="flightsCountOneStopFilterTest">flightsCountOneStopFilterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CheckPricesTest" class="method navigator-link" hash-for-method="parentTest">parentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.SearchFlightsTest" class="method navigator-link" hash-for-method="searchForAFlight">searchForAFlight</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" title="com.assign.qa.testcases.CheckPricesTest" class="method navigator-link" hash-for-method="validateFlightPriceTest(4.0, 3.0)">validateFlightPriceTest(4.0, 3.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel">
+          <div class="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.assign.qa.testcases.CheckPricesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFlightPriceTest(2.0, 5.0)">
+                  </a> <!-- validateFlightPriceTest(2.0, 5.0) -->
+                  <span class="method-name">validateFlightPriceTest</span>
+                  <span class="parameters">(2.0, 5.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [5528] but found [5422]
+	at com.assign.qa.testcases.CheckPricesTest.validateFlightPriceTest(CheckPricesTest.java:69)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFlightPriceTest(3.0, 4.0)">
+                  </a> <!-- validateFlightPriceTest(3.0, 4.0) -->
+                  <span class="method-name">validateFlightPriceTest</span>
+                  <span class="parameters">(3.0, 4.0)</span>
+                  <div class="stack-trace">java.lang.AssertionError: The following asserts failed:
+	expected [5528] but found [5422]
+	at com.assign.qa.testcases.CheckPricesTest.validateFlightPriceTest(CheckPricesTest.java:69)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-failed -->
+          <div class="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.assign.qa.testcases.SearchFlightsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchForAFlight">
+                  </a> <!-- searchForAFlight -->
+                  <span class="method-name">searchForAFlight</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed -->
+          <div class="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.assign.qa.testcases.CountFlightsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsCountNoFilterTest">
+                  </a> <!-- flightsCountNoFilterTest -->
+                  <span class="method-name">flightsCountNoFilterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsCountNonStopFilterTest">
+                  </a> <!-- flightsCountNonStopFilterTest -->
+                  <span class="method-name">flightsCountNonStopFilterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightsCountOneStopFilterTest">
+                  </a> <!-- flightsCountOneStopFilterTest -->
+                  <span class="method-name">flightsCountOneStopFilterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed -->
+          <div class="suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.assign.qa.testcases.CheckPricesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="parentTest">
+                  </a> <!-- parentTest -->
+                  <span class="method-name">parentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateFlightPriceTest(4.0, 3.0)">
+                  </a> <!-- validateFlightPriceTest(4.0, 3.0) -->
+                  <span class="method-name">validateFlightPriceTest</span>
+                  <span class="parameters">(4.0, 3.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel-class-passed -->
+        </div> <!-- panel Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+        <div panel-name="test-xml-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\kavitha_projects\JavaCore\FrameWorkFinal\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Framework with extent report, failure screen capture, test data from excel&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search for a flight&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.assign.qa.testcases.TestSetup&quot;/&gt;
+      &lt;class name=&quot;com.assign.qa.testcases.SearchFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search for a flight --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Count the number of Flights with filters&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.assign.qa.testcases.CountFlightsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Count the number of Flights with filters --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Validate the Flight prices&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.assign.qa.testcases.CheckPricesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Validate the Flight prices --&gt;
+&lt;/suite&gt; &lt;!-- Framework with extent report, failure screen capture, test data from excel --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Framework with extent report, failure screen capture, test data from excel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search for a flight (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Count the number of Flights with filters (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Validate the Flight prices (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Framework with extent report, failure screen capture, test data from excel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Framework with extent report, failure screen capture, test data from excel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel');
+function tableData_Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'flightsCountNoFilterTest')
+data.setCell(0, 2, 'com.assign.qa.testcases.CountFlightsTest')
+data.setCell(0, 3, 10568);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'searchForAFlight')
+data.setCell(1, 2, 'com.assign.qa.testcases.SearchFlightsTest')
+data.setCell(1, 3, 5446);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'flightsCountNonStopFilterTest')
+data.setCell(2, 2, 'com.assign.qa.testcases.CountFlightsTest')
+data.setCell(2, 3, 4505);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateFlightPriceTest')
+data.setCell(3, 2, 'com.assign.qa.testcases.CheckPricesTest')
+data.setCell(3, 3, 3837);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'validateFlightPriceTest')
+data.setCell(4, 2, 'com.assign.qa.testcases.CheckPricesTest')
+data.setCell(4, 3, 3817);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'flightsCountOneStopFilterTest')
+data.setCell(5, 2, 'com.assign.qa.testcases.CountFlightsTest')
+data.setCell(5, 3, 2046);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateFlightPriceTest')
+data.setCell(6, 2, 'com.assign.qa.testcases.CheckPricesTest')
+data.setCell(6, 3, 1846);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'parentTest')
+data.setCell(7, 2, 'com.assign.qa.testcases.CheckPricesTest')
+data.setCell(7, 3, 0);
+window.suiteTableData['Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel']= { tableData: data, tableDiv: 'times-div-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
+              <div id="times-div-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel">
+              </div> <!-- times-div-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Framework with extent report, failure screen capture, test data from excel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Framework_with_extent_report,_failure_screen_capture,_test_data_from_excel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assign.qa.testcases.TestSetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assign.qa.testcases.SearchFlightsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchForAFlight</span>
+                <span class="method-start">6372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=searchForAFlight status=SUCCESS method=SearchFlightsTest.searchForAFlight()[pri:0, ...)</span>
+                <span class="method-start">11820 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assign.qa.testcases.CountFlightsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">11873 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">flightsCountNoFilterTest</span>
+                <span class="method-start">11875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=flightsCountNoFilterTest status=SUCCESS method=CountFlightsTest.flightsCountNoFilte...)</span>
+                <span class="method-start">22445 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsCountNonStopFilterTest</span>
+                <span class="method-start">22447 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=flightsCountNonStopFilterTest status=SUCCESS method=CountFlightsTest.flightsCountNo...)</span>
+                <span class="method-start">26953 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">flightsCountOneStopFilterTest</span>
+                <span class="method-start">26954 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=flightsCountOneStopFilterTest status=SUCCESS method=CountFlightsTest.flightsCountOn...)</span>
+                <span class="method-start">29001 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assign.qa.testcases.CheckPricesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initTest</span>
+                <span class="method-start">29029 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">parentTest</span>
+                <span class="method-start">29030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=parentTest status=SUCCESS method=CheckPricesTest.parentTest()[pri:0, instance:com.a...)</span>
+                <span class="method-start">29031 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateFlightPriceTest(2.0, 5.0)</span>
+                <span class="method-start">29702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=validateFlightPriceTest status=FAILURE method=CheckPricesTest.validateFlightPriceTe...)</span>
+                <span class="method-start">31550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">validateFlightPriceTest(3.0, 4.0)</span>
+                <span class="method-start">32047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=validateFlightPriceTest status=FAILURE method=CheckPricesTest.validateFlightPriceTe...)</span>
+                <span class="method-start">35886 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateFlightPriceTest(4.0, 3.0)</span>
+                <span class="method-start">36291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">checkResult([TestResult name=validateFlightPriceTest status=SUCCESS method=CheckPricesTest.validateFlightPriceTe...)</span>
+                <span class="method-start">40109 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.assign.qa.testcases.TestSetup</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40138 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

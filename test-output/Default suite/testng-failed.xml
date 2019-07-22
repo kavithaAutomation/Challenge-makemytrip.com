@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.assign.qa.testcases.CountFlightsTest">
+        <methods>
+          <include name="flightsCountOneStopFilterTest"/>
+          <include name="flightsCountNoFilterTest"/>
+          <include name="flightsCountNonStopFilterTest"/>
+          <include name="initTest"/>
+        </methods>
+      </class> <!-- com.assign.qa.testcases.CountFlightsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

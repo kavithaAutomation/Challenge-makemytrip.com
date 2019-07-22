@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Framework with extent report, failure screen capture, test data from excel" >
+	  
+	  <test name="Search for a flight" preserve-order="true" >
+	    <classes>
+	      <class name="com.assign.qa.testcases.TestSetup"/>
+	      <class name="com.assign.qa.testcases.SearchFlightsTest"/>
+	    </classes>
+	 </test>
+	 
+	
+	 <test name="Count the number of Flights with filters" preserve-order="true" >
+	    <classes>
+	      <class name="com.assign.qa.testcases.CountFlightsTest"/>
+	    </classes>
+	 </test>
+
+	 <test name="Validate the Flight prices" preserve-order="true" >
+	    <classes>
+	      <class name="com.assign.qa.testcases.CheckPricesTest"/>
+	    </classes>
+	 </test>
+	 
+</suite>

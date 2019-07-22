@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-07-22T04:23:20Z" name="Framework with extent report, failure screen capture, test data from excel" finished-at="2019-07-22T04:23:54Z" duration-ms="33753">
+    <groups>
+    </groups>
+    <test started-at="2019-07-22T04:23:20Z" name="Search for a flight" finished-at="2019-07-22T04:23:26Z" duration-ms="5471">
+      <class name="com.assign.qa.testcases.SearchFlightsTest">
+        <test-method signature="searchForAFlight()[pri:0, instance:com.assign.qa.testcases.SearchFlightsTest@7995092a]" started-at="2019-07-22T04:23:20Z" name="searchForAFlight" finished-at="2019-07-22T04:23:26Z" duration-ms="5446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAFlight -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.SearchFlightsTest@7995092a]" started-at="2019-07-22T04:23:26Z" name="checkResult" finished-at="2019-07-22T04:23:26Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchForAFlight status=SUCCESS method=SearchFlightsTest.searchForAFlight()[pri:0, instance:com.assign.qa.testcases.SearchFlightsTest@7995092a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+      </class> <!-- com.assign.qa.testcases.SearchFlightsTest -->
+    </test> <!-- Search for a flight -->
+    <test started-at="2019-07-22T04:23:26Z" name="Count the number of Flights with filters" finished-at="2019-07-22T04:23:43Z" duration-ms="17130">
+      <class name="com.assign.qa.testcases.CountFlightsTest">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:26Z" name="initTest" finished-at="2019-07-22T04:23:26Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="flightsCountNoFilterTest()[pri:1, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:26Z" name="flightsCountNoFilterTest" finished-at="2019-07-22T04:23:36Z" duration-ms="10568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsCountNoFilterTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:36Z" name="checkResult" finished-at="2019-07-22T04:23:36Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightsCountNoFilterTest status=SUCCESS method=CountFlightsTest.flightsCountNoFilterTest()[pri:1, instance:com.assign.qa.testcases.CountFlightsTest@61dd025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method signature="flightsCountNonStopFilterTest()[pri:2, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:36Z" name="flightsCountNonStopFilterTest" finished-at="2019-07-22T04:23:41Z" duration-ms="4505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsCountNonStopFilterTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:41Z" name="checkResult" finished-at="2019-07-22T04:23:41Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightsCountNonStopFilterTest status=SUCCESS method=CountFlightsTest.flightsCountNonStopFilterTest()[pri:2, instance:com.assign.qa.testcases.CountFlightsTest@61dd025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method signature="flightsCountOneStopFilterTest()[pri:3, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:41Z" name="flightsCountOneStopFilterTest" finished-at="2019-07-22T04:23:43Z" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsCountOneStopFilterTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CountFlightsTest@61dd025]" started-at="2019-07-22T04:23:43Z" name="checkResult" finished-at="2019-07-22T04:23:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightsCountOneStopFilterTest status=SUCCESS method=CountFlightsTest.flightsCountOneStopFilterTest()[pri:3, instance:com.assign.qa.testcases.CountFlightsTest@61dd025] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+      </class> <!-- com.assign.qa.testcases.CountFlightsTest -->
+    </test> <!-- Count the number of Flights with filters -->
+    <test started-at="2019-07-22T04:23:43Z" name="Validate the Flight prices" finished-at="2019-07-22T04:23:54Z" duration-ms="11082">
+      <class name="com.assign.qa.testcases.CheckPricesTest">
+        <test-method is-config="true" signature="initTest()[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:43Z" name="initTest" finished-at="2019-07-22T04:23:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method signature="parentTest()[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:43Z" name="parentTest" finished-at="2019-07-22T04:23:43Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parentTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:43Z" name="checkResult" finished-at="2019-07-22T04:23:43Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=parentTest status=SUCCESS method=CheckPricesTest.parentTest()[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method signature="validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:44Z" name="validateFlightPriceTest" data-provider="getFlights" finished-at="2019-07-22T04:23:45Z" duration-ms="1846" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [5528] but found [5422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [5528] but found [5422]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.assign.qa.testcases.CheckPricesTest.validateFlightPriceTest(CheckPricesTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightPriceTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:45Z" name="checkResult" finished-at="2019-07-22T04:23:46Z" duration-ms="497" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFlightPriceTest status=FAILURE method=CheckPricesTest.validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method signature="validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:46Z" name="validateFlightPriceTest" data-provider="getFlights" finished-at="2019-07-22T04:23:50Z" duration-ms="3837" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [5528] but found [5422]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [5528] but found [5422]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at com.assign.qa.testcases.CheckPricesTest.validateFlightPriceTest(CheckPricesTest.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightPriceTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:50Z" name="checkResult" finished-at="2019-07-22T04:23:50Z" duration-ms="404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFlightPriceTest status=FAILURE method=CheckPricesTest.validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+        <test-method signature="validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:50Z" name="validateFlightPriceTest" data-provider="getFlights" finished-at="2019-07-22T04:23:54Z" duration-ms="3817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFlightPriceTest -->
+        <test-method is-config="true" signature="checkResult(org.testng.ITestResult)[pri:0, instance:com.assign.qa.testcases.CheckPricesTest@4445629]" started-at="2019-07-22T04:23:54Z" name="checkResult" finished-at="2019-07-22T04:23:54Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateFlightPriceTest status=SUCCESS method=CheckPricesTest.validateFlightPriceTest(java.lang.String, java.lang.String)[pri:1, instance:com.assign.qa.testcases.CheckPricesTest@4445629] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResult -->
+      </class> <!-- com.assign.qa.testcases.CheckPricesTest -->
+      <class name="com.assign.qa.testcases.TestSetup">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.assign.qa.testcases.TestSetup@6293abcc]" started-at="2019-07-22T04:23:14Z" name="setUp" finished-at="2019-07-22T04:23:20Z" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.assign.qa.testcases.TestSetup@6293abcc]" started-at="2019-07-22T04:23:54Z" name="tearDown" finished-at="2019-07-22T04:23:55Z" duration-ms="1239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.assign.qa.testcases.TestSetup -->
+    </test> <!-- Validate the Flight prices -->
+  </suite> <!-- Framework with extent report, failure screen capture, test data from excel -->
+</testng-results>
